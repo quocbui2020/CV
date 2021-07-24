@@ -1,0 +1,116 @@
+a {
+  color: #11999E;
+}
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+}
+.underline{
+  text-decoration: underline;
+}
+p {
+  color: #40514E;
+  font-weight: bold;
+  line-height: 2;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem; /*40 pixels*/
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  width: 4%; /*use % to make it responsive*/
+  border: 10px dotted;
+  border-bottom: none;
+  border-color: #B05B3B;
+  margin: 100px auto;
+}
+.small-title {
+  line-height: 2; /*similar to increase the line spacing*/
+  font-size: 2rem;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-images1 {
+  width: 25%;
+  border-radius: 50%;
+  float:left;
+  padding-right: 30px;
+}
+.skill-images2 {
+  width: 25%;
+  border-radius: 50%;
+  float:right;
+  padding-left: 30px;
+}
+.top-cloud {
+  position:absolute;
+  right: 30%;
+  top: 65px;
+}
+.bottom-cloud {
+  position:absolute;
+  top: 350px;
+}
+.contact-me{
+  padding: 30px;
+}
+a {
+  display:inline-block; /*Without this, anchor link element is just floating to nearby elements, change margin can't position the anchor link*/
+  margin: 20px;
+  text-decoration: none; /*Remove underline*/
+  font-weight:bold;
+}
+a:hover {
+  color: #EAF6F6;
+}
+.btn{
+  background-color: #53B8BB;
+  color: #EAF6F6;
+  border: 1px solid;
+  border-radius: 5%;
+  padding: 15px 32px;
+  margin-top: 60px;
+}
+.btn:hover {
+  background-color: #66DE93;
+
+}
+.copy-right {
+  color: #EAF6F6;
+  font-weight: lighter;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative; /*For bottom-cloud's positioning*/
+  padding-top:100px; /*Extra space top of the page*/
+}
+.profile {
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.middle-container {
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding: 20px;
+}

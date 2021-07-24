@@ -5,122 +5,63 @@
     <meta charset="utf-8"> <!--Tell website how to render, display, or decode the page-->
           <!--charset tells the webpage how to encode-->
     <title>Quoc Ngoc Bui</title> <!--title of the page-->
+    <link rel="stylesheet" type="text/css" href= "./CSS/styles.css">
+    <link rel="icon" href="./images/favicon.ico"> <!--favorite icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Font family links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <!--End Font family-->
   </head>
+
   <body> <!--Body of the page-->
-    <table cellspacing="10">
-      <tr>
-        <td><img src="https://media-exp1.licdn.com/dms/image/C5603AQEKX7UDi0grxg/profile-displayphoto-shrink_400_400/0/1622746934986?e=1628726400&v=beta&t=Olc5XIVP4sW2EZyduo_7HiUIWO8PIC_d0M4SDqvr5_0" width="200" height="200"/></td>
-        <td>
-          <h1>Quoc Ngoc Bui</h1>
-          <p><em>Computer Engineering graduate, 2020</em></p>
-          <p>A hard-working Computer Engineering graduate looking for an entry-level position as a Software Engineer or Software Developer. Passion for technology, quick-learning, problem-solving, critical thinking, detail-oriented.</p>
-          <p>Go to: <a href="#contact">My Contact Information</a></p>
-        </td>
-      </tr>
-    </table>
+    <div class="top-container">
+      <img class="top-cloud" src="./images/cloud.png" alt="Cloud-Image">
+      <h1>Quoc Ngoc Bui</h1>
+      <h2 class="small-title">A passionate <span class="underline">pro</span>grammer</h2>
+      <img class="bottom-cloud" src="./images/cloud.png" alt="Cloud-Image" />
+      <img src="./images/mountain.png" alt="Mountain-Image" />
+    </div>
 
-    <hr>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="./images/quoc.jpg" style="border-radius: 50%; border: 5px solid green" width="200px" height="200px" alt="My Profile Picture">
+        <h2>Hello.</h2>
+        <p>I'm a programmer, who have a passion in the fields of Software Development and Cybersecurity</p>
+      </div>
 
-    <h3>Education</h3>
-    <ul>
-      <li>
-        BS in Computer Engineering
-        <br />
-        College of Science and Engineering, University of Minnesota, Twin Cities
-      </li>
-      <br />
-      <li>
-        AAS in Liberal Art and Sciences, 3.87
-        <br />
-        Rochester Community and Technical College
-      </li>
-    </ul>
+      <hr> <!--Horizontal bar-->
 
-    <h3>Skills</h3>
-    <table cellspacing="15">
-      <tr>
-        <td>Programming Languages</td>
-        <td>C++, Java, JavaScript, HTML, CSS, Python, Assembly, SQL, Lua.</td>
-      </tr>
-      <tr>
-        <td>Skills</td>
-        <td>Object-Oriented Programming, MATLAB, Git.</td>
-      </tr>
-      <tr>
-        <td>Courses</td>
-        <td>Algorithms and Data Structures, Database Management Systems, Intro to Operating Systems, Computer Architecture and Machine Organization, Networks and Security.</td>
-      </tr>
-      <tr>
-        <td>Languages</td>
-        <td>Fluent in Vietnamese.</td>
-      </tr>
-    </table>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill-images1" src="./images/coding.png" alt="Skill photo">
+          <h3>Programming</h3>
+          <p>I have the knowledges on Object-Oriented Programming (OOP), Git, C++, Java, JavaScript, HTML, CSS, Python, Assembly, SQL, and Roblox Lua.</p>
+        </div>
 
+        <div class="skill-row">
+          <img class="skill-images2" src="./images/tent.png" alt="Tent">
+          <h3>Outdoor and Physical Activites</h3>
+          <p>I enjoy fishing, camping, traveling, hiking, running, exercising, socializing, and much more!</p>
+        </div>
+      </div>
 
-    <h3>Research Experiences</h3>
-    <ul>
-      <li>
-        <strong>Undergrad Research Assistant</strong> at Department of Pediatrics, University of Minnesota Medical School ✪ November 2018 – June 2020
-        <ul>
-          <li>Process the EEG data using MATLAB and EEGLAB.</li>
-          <li>Study and identify the various types of artifacts and signals within the EEG data.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Pathways to Research Scholar</strong> at UMN Clinical and Translational Science Institute, Minneapolis, MN ✪ May 2016 – September 2016
-        <ul>
-          <li>Research and study the strength of the aortic tissues of the aorta aneurysm’s patients.</li>
-          <li>Aim for a better understanding and estimating the likely hood of the tissue burst.</li>
-        </ul>
-      </li>
-    </ul>
+      <hr> <!--Horizontal bar-->
 
-    <h3>Other Work Experiences</h3>
-    <ul>
-      <li>
-        <strong>Tutor Coordinator</strong> at Riverland Community College ✪ March 2021 – May 2021
-        <ul>
-          <li>Organize, plan, and maintain the Tutor Center.</li>
-          <li>Teaching Assistant and Tutor in Science and Technology.</li>
-        </ul>
-      </li>
-    </ul>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Get in touch if you enjoy coffee as much as I do</h3>
+        <p>We can enjoy a glass of iced coffee and do some coding together!</p>
+        <a class="btn" href="mailto:buixx148@umn.edu">CONTACT ME</a>
+      </div>
+    </div>
 
-  <h3>Honors and Awards</h3>
-    <table cellspacing="10">
-      <tr>
-        <td><b>⍟ President’s List</b>: Rochester Community and Technical College – Spring 2016; Riverland Community College – Fall 2014</td>
-      </tr>
-      <tr>
-        <td><b>⍟ Dean's List</b>: Univeristy of Minnesota – Fall 2019; Rochester Community and Technical College – Fall 2015; Riverland Community College - Spring 2015.</td>
-      </tr>
-      <tr>
-        <td><b>⍟</b> Phi Theta Kappa Honor Society (2014-2016)</td>
-      </tr>
-      <tr>
-        <td><b>⍟ Scholarships</b>: Douglass Family – Fall 2016, Cycle for Success – Fall 2014 </td>
-      </tr>
-    </table>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/quoc-bui-596241b2/">LinkedIn</a>
+      <a class="footer-link" href="https://quocbui2020.github.io/CV">HTML CV</a>
+      <p class="copy-right">© 2021 Quoc Ngoc Bui.</p>
+    </div>
 
-    <hr />
-    <h3><a name="contact">Contact Information</a></h3>
-    <table>
-      <tr>
-        <td>Phone 📞</td>
-        <td><i>(507)589-5462</i></td>
-      </tr>
-      <tr>
-        <td>Email 📧</td>
-        <td><i>buixx148@umn.edu</i></td>
-      </tr>
-      <tr>
-        <td>Social Media:</td>
-        <td><i><a href="https://www.linkedin.com/in/quoc-bui-596241b2/">LinkedIn</a></i></td>
-      </tr>
-    </table>
-    <p>
-      <br />
-      <br />
-    </p>
   </body>
 </html>
